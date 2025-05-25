@@ -43,7 +43,7 @@ def AGAD_GATE(qc: QuantumCircuit):
 | TDIS    | Red de nodos espejo con coherencia ≥150μs [9] | Quantum Data Infrastructure |
 
 ### Diagrama de Secuencia de Auditoría Ética  
-```
+```mermaid
 sequenceDiagram
     participant AGI
     participant TDIS
