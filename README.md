@@ -128,7 +128,7 @@ Where:
 - $\Omega$: Solid Angle of View
 - $T(\lambda)$: Optical Transmission efficiency at wavelength $\lambda$
 - $QE(\lambda)$: Quantum Efficiency of the detector at wavelength $\lambda$
-- $\lambda_1, \lambda_2$: Operational wavelength range (e.g., 400–700 nm)
+- $\lambda_1, $\lambda_2$: Operational wavelength range (e.g., 400–700 nm)
 
 **Target Technical Specs:**
 | Parameter | Value |
