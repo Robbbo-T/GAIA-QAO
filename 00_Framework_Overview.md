@@ -74,11 +74,11 @@ Where:
 **Process Flow:**
 ```mermaid
 graph LR
-    A[1. Photonic Sensors Collect Environmental Data] --> B(2. TDIS Data Ingestion & Pre-processing);
-    B -- Real-time Data --> C{3. Quantum Optimization Engine};
-    C -- Optimized Parameters --> D[4. Adjust Operational Systems];
-    D -- Feedback Loop --> A;
-    C -- Reports to --> E[5. Sustainability Metrics (e.g., QSI)];
+    A[Photonic Sensors Collect Environmental Data] --> B[TDIS Data Ingestion & Pre-processing]
+    B -- Real-time Data --> C{Quantum Optimization Engine}
+    C -- Optimized Parameters --> D[Adjust Operational Systems]
+    D -- Feedback Loop --> A
+    C -- Reports to --> E[Sustainability Metrics: QSI and more]
 ```
 
 **Implementation Notes:**
