@@ -56,3 +56,7 @@ This document provides guidelines for implementing the GAIA-QAO framework. It co
 ## Conclusion
 
 By following these guidelines, you can successfully implement the GAIA-QAO framework and contribute to the development of sustainable, safe, and explainable air and space transport systems. Remember to adhere to the best practices, use the recommended tools, and follow the step-by-step instructions to ensure a smooth and successful implementation process.
+
+## About GAIA-QAO
+
+GAIA-QAO is an organizational structure inspired by the principles of quantum mechanics, such as superposition and entanglement, applied to the management and development of aerospace projects. The goal is to create a dynamic and adaptable model that allows the various components of the organization to operate in multiple functional states simultaneously, thus optimizing responsiveness and efficiency in response to specific operational contexts.

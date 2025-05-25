@@ -123,3 +123,7 @@ export default function QsiCalculator() {
 ```
 
 To use this component, import and render `<QsiCalculator />` in your React application (ensure `antd` is installed).
+
+## About GAIA-QAO
+
+GAIA-QAO is an organizational structure inspired by the principles of quantum mechanics, such as superposition and entanglement, applied to the management and development of aerospace projects. The goal is to create a dynamic and adaptable model that allows the various components of the organization to operate in multiple functional states simultaneously, thus optimizing responsiveness and efficiency in response to specific operational contexts.
