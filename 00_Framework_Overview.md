@@ -2,76 +2,49 @@
 
 ## Vision & Core Principles
 
-GAIA-QAO pioneers the fusion of **quantum computing** and aerospace engineering to develop **self-optimizing**, **climate-positive** air and space transport systems. By embedding ethical AI and real-time environmental accountability via the Technical Data Information System (TDIS), we enable:
-- **Trustworthy autonomy**: Systems that explain decisions in human-readable formats.
-- **Planetary stewardship**: Carbon-negative operations through quantum route optimization and atmospheric data fusion.
-- **Cosmic democratization**: Open-source tools to empower global collaboration on space exploration.
+GAIA-QAO pioneers the fusion of **quantum computing** and aerospace engineering to develop self-optimizing, climate-positive air and space transport systems.
+
+### Key Principles
+- **Trustworthy autonomy**: Human-readable, explainable AI decisions.
+- **Planetary stewardship**: Carbon-negative operations via quantum optimization.
+- **Cosmic democratization**: Open-source collaboration for global space exploration.
 
 ## Key Technical Concepts
 
 ### Entangled Accountability Protocol (QEG)
 
-**Overview:**
-The Quantum Ethical Governance (QEG) framework ensures every autonomous decision is quantum-auditable and human-verifiable. It combines a 3-layer approval stack with on-chain quantum hashes recorded in TDIS.
+#### Overview
+The Quantum Ethical Governance (QEG) framework ensures every autonomous decision is quantum-auditable and human-verifiable.
 
-**Key Components:**
-*   **TDIS Node:** Maintains an entangled ledger of decision qubits.
-*   **QuantumCircuit:** Encodes audit logic based on AGAD (Auditable Governance and Algorithmic-Decisioning) standards.
-*   **ETH_hash():** A conceptual quantum-resistant hash primitive for immutability within the QEG context.
+#### Components
+- **TDIS Node**: Entangled ledger of decision qubits.
+- **QuantumCircuit**: AGAD-standard audit logic.
+- **ETH_hash()**: Quantum-resistant hash primitive.
 
-**Conceptual Python Implementation:**
+#### Conceptual Python Implementation
+
 ```python
-from typing import List
-# Assuming TDISNode, QuantumCircuit, and ETH_hash are defined
-# within the GAIA-QAO quantum libraries.
-
-class QuantumAudit:
-    def __init__(self, qubits: int = 40):
-        # Initialize a TDIS mirror node with N entangled qubits
-        self.node = TDISNode(num_qubits=qubits) # Placeholder for TDIS SDK
-        self.eth_hasher = ETH_hash() # Placeholder for hashing primitive
-
-    def verify(self, decision_matrix: List[List[float]]) -> bool:
-        # qc = QuantumCircuit(self.node.qubits) # Placeholder
-        # qc.append(self.eth_hasher, qubits=range(self.node.qubits)) # Conceptual
-        # qc.add_layers(decision_matrix) # Conceptual: apply decision logic
-        # result = self.node.execute(qc) # Placeholder
-        # return result.is_valid() and result.traceable() # Placeholder
-        print(f"Verifying decision_matrix on {self.node.qubits} qubits via TDIS.")
-        # Mock verification for demonstration
-        return hash(str(decision_matrix)) % 2 == 0
+# Example: Quantum audit interface (see full repo for integration)
+def quantum_audit_verify(decision_matrix, sdk="qiskit"):
+    ...
 ```
 
-**Mermaid Diagram (Conceptual Flow):**
-```mermaid
-graph TD
-    A[Autonomous Decision Proposed] --> B{QEG Verification};
-    B -- Decision Matrix --> C[QuantumCircuit Construction];
-    C -- AGAD Standards --> C;
-    C -- Uses ETH_hash() --> C;
-    C -- Executes on --> D(TDIS Entangled Ledger);
-    D -- Audit Trail --> E{Verification Result};
-    E -- Valid & Traceable --> F[Decision Approved];
-    E -- Invalid / Non-Traceable --> G[Decision Rejected];
+---
+
+## Reference System Structure
+
+```plaintext
+GAIA-QAO-Reference/
+├── quantum_audit/
+├── cpp_control/
+├── rust_control/
+└── tests/
 ```
 
-### Photonic Sustainability Loop
+---
 
-**Concept:**
-A closed-loop system that captures environmental data via photonic sensors, feeds it into quantum optimizers (managed by TDIS), and then adjusts operational parameters in real-time to minimize environmental impact and maximize efficiency.
+## Example: Process Flow (Mermaid Diagram)
 
-**Energy Optimization Equation (Conceptual):**
-The efficiency gain or energy optimization (ΔE) can be conceptualized as a function of photon energy, qubit coherence, and computational photonic efficiency:
-$$
-\Delta E \propto \hbar \omega \cdot \tau_{coherence} \cdot CPM
-$$
-
-Where:
-- $\hbar \omega$: Photon energy
-- $\tau_{coherence}$: Qubit coherence time (s)
-- CPM: Computational Photonic Mile (a metric for energy cost per computational work over photonic links)
-
-**Process Flow:**
 ```mermaid
 graph LR
     A[Photonic Sensors Collect Environmental Data] --> B[TDIS Data Ingestion & Pre-processing]
@@ -81,34 +54,58 @@ graph LR
     C -- Reports to --> E[Sustainability Metrics: QSI and more]
 ```
 
-**Implementation Notes:**
-- Photonic sensors (e.g., LIDAR on QEPs) operate at specific wavelengths (e.g., 532 nm dual-polarization).
-- Data is ingested by TDIS (target: v2.3 API) with low latency (target: <1 ms).
-- Quantum optimizer utilizes solvers (e.g., QUBO) to minimize emissions footprint or optimize routes.
+---
 
-### QEP Optical Design
+## Technical Metrics
 
-**Objective:**
-Define the optical throughput $F_{sensor}$ for the Quantum Environmental Probe (QEP) to ensure high-fidelity data capture.
+| Parameter                 | Value         |
+|---------------------------|--------------|
+| Wavelength Range          | 400–700 nm   |
+| Quantum Efficiency (peak) | ≥ 85 %       |
+| Aperture Diameter         | 10 cm        |
+| Detector Noise            | < 5 e¯ RMS   |
+| Sampling Rate             | 1 kHz        |
 
-**Sensor Throughput (Conceptual Formula):**
-The sensor's light gathering and conversion efficiency can be represented as:
-$$
-F_{sensor} = A \cdot \Omega \cdot \int_{\lambda_1}^{\lambda_2} T(\lambda) \cdot QE(\lambda) d\lambda
-$$
+---
 
-Where:
-- $A$: Aperture Area
-- $\Omega$: Solid Angle of View
-- $T(\lambda)$: Optical Transmission efficiency at wavelength $\lambda$
-- $QE(\lambda)$: Quantum Efficiency of the detector at wavelength $\lambda$
-- $\lambda_1, \lambda_2$: Operational wavelength range (e.g., 400–700 nm)
+## Build & Test Instructions
 
-**Target Technical Specs:**
-| Parameter | Value |
-|---------------------------|-----------------|
-| Wavelength Range | 400–700 nm |
-| Quantum Efficiency (peak) | ≥ 85 % |
-| Aperture Diameter | 10 cm |
-| Detector Noise | < 5 e¯ RMS |
-| Sampling Rate | 1 kHz |
+### Python
+```sh
+cd quantum_audit
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+### C++
+```sh
+cd cpp_control
+mkdir -p build && cd build
+cmake ..
+make
+PYTHONPATH=../../quantum_audit ./main
+```
+
+### Rust
+```sh
+cd rust_control
+PYTHONPATH=../quantum_audit cargo run
+```
+
+### Tests
+```sh
+cd tests
+bash test_cpp.sh
+bash test_rust.sh
+bash test_python.sh
+```
+
+---
+
+## Notes
+- Swap `"qiskit"` for `"cirq"` or `"tdis"` in Python audit calls as needed.
+- All logs are structured (JSON).
+- Bus stubs (ARINC429) are extensible for real hardware.
+
+---
