@@ -43,3 +43,6 @@ for file in "${SOURCE_FILES[@]}"; do
 done
 
 echo "Done. Master document is at $OUT"
+
+# Generate a printable PDF version of the master document using Pandoc
+pandoc "$OUT" -o GAIA-QAO_AGI_Master_Full.pdf
