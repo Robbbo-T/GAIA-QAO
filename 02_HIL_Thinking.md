@@ -35,3 +35,7 @@ Quantum auditing is a process that ensures the integrity and accountability of a
 ## Conclusion
 
 HIL thinking is a critical approach in the GAIA-QAO framework. It involves integrating real hardware components into the simulation and testing environments to ensure that the systems perform as expected in real-world conditions. By applying HIL thinking to key components such as the QEP, photonic sensors, and quantum auditing, the GAIA-QAO framework can achieve its goals of sustainable, safe, and explainable air and space transport systems.
+
+## About GAIA-QAO
+
+GAIA-QAO is an organizational structure inspired by the principles of quantum mechanics, such as superposition and entanglement, applied to the management and development of aerospace projects. The goal is to create a dynamic and adaptable model that allows the various components of the organization to operate in multiple functional states simultaneously, thus optimizing responsiveness and efficiency in response to specific operational contexts.

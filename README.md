@@ -19,6 +19,9 @@ Welcome to the GAIA-QAO documentation hub! This repository contains the foundati
 - [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
 - [🔗 Quick Links to Documentation Sections](#-quick-links-to-documentation-sections)
+- [About Amedeo Pelliccia](#about-amedeo-pelliccia)
+- [About GAIA-QAO](#about-gaia-qao)
+- [Online Presence](#online-presence)
 
 ---
 
@@ -338,6 +341,18 @@ The documentation and concepts herein represent a forward-looking vision and are
 
 ---
 
-(Document version: GAIA-QAO README v1.0 - Last updated: YYYY-MM-DD)
+## About Amedeo Pelliccia
 
-(Derived from concepts in GAIA-QAO 2.3.1 – Certified by AGAD Ethics Board via TDIS on 2025-05-25)
+Amedeo Pelliccia is an aerospace engineer and project manager at Capgemini, based in Madrid. In addition to his professional activities, he is known for his commitment to research and development of advanced technologies in the fields of artificial intelligence, robotics, quantum computing, and sustainability. He is the founder and principal architect of GAIA-QAO (Quantum Aerospace Organization), an initiative aimed at revolutionizing the aerospace industry through the application of quantum principles to the organization and design of systems.
+
+## About GAIA-QAO
+
+GAIA-QAO is an organizational structure inspired by the principles of quantum mechanics, such as superposition and entanglement, applied to the management and development of aerospace projects. The goal is to create a dynamic and adaptable model that allows the various components of the organization to operate in multiple functional states simultaneously, thus optimizing responsiveness and efficiency in response to specific operational contexts.
+
+## Online Presence
+
+- **LinkedIn**: Shares updates on projects and reflections in the field of aerospace innovation.
+- **GitHub**: Maintains repositories related to GAIA AIR and GAIA-QAO projects, offering technical documentation and source code.
+- **Instagram**: Shares personal and professional aspects, highlighting his interest in electronic music and LGBTQ+ culture.
+
+For more details on his projects and initiatives, you can visit his profiles on LinkedIn and GitHub.
