@@ -8,11 +8,11 @@
 | L3        | AGAD-certified ethical override systems | 97% Ethical Coherence [2]        |
 | L4        | Quantum Photonic Decision Matrices      | 0.3ps Decoherence Threshold [9]  |
 
-```
-graph TD
+```mermaid
+**graph TD
     A[AGI Interface] -->|Quantum Audit Request| B{TDIS}
     B -->|Entangled Validation| C[Photonics Core]
-    C -->|Ethical Proof| D((AGAD Audit))
+    C -->|Ethical Proof| D((AGAD Audit))**
 ```
 
 ### Quantum-Ethical Implementation Deep Dive
