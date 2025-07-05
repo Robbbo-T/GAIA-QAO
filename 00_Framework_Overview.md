@@ -9,10 +9,10 @@
 | L4        | Quantum Photonic Decision Matrices      | 0.3ps Decoherence Threshold [9]  |
 
 ```mermaid
-**graph TD
+graph TD
     A[AGI Interface] -->|Quantum Audit Request| B{TDIS}
     B -->|Entangled Validation| C[Photonics Core]
-    C -->|Ethical Proof| D(AGAD Audit)**
+    C -->|Ethical Proof| D(AGAD Audit)
 ```
 
 ### Quantum-Ethical Implementation Deep Dive
